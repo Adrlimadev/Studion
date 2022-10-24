@@ -1,0 +1,39 @@
+.btn {
+  cursor: pointer;
+  padding: 1.5rem 4.5rem;
+  border: 0.2rem solid hsl(0, 0%, 100%);
+  border-radius: 5rem;
+  color: var(--color-primary);
+  background: unset;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+  margin-left: 1.5rem; /* coloquei margin para deixar o button abaixo do (min)ds */
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn--institutional,
+.btn--contact {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn--institutional:hover,
+.btn--contact:hover {
+  color: var(--color-copy);
+  background: unset;
+}
+
+.btn--contact:hover {
+  color: #fff;
+}
+
+.btn--quote {
+  color: var(--color-copy);
+  border-color: var(--color-copy);
+  background: unset;
+}

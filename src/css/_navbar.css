@@ -1,0 +1,45 @@
+.navbar {
+  /* border: 2px solid red; */
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*vermelho / verde/ azul /transparência - 0 - F*/
+  color: hsl(0, 0%, 100%);
+}
+
+.navbar__container {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+
+  width: 100vw;
+  height: 12.4rem;
+  padding: 0 1rem;
+}
+
+.navbar__links {
+  justify-self: end;
+}
+
+.navbar__links li {
+  /* border: 2px solid blue; */
+  font-size: 1.4rem;
+  margin-right: 4.5rem; /*alterei de 3rem para 4.5rem pois ficou mais harmonioso o espaçamento */
+  text-transform: uppercase;
+}
+
+.navbar__links a {
+  font-weight: 300;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.navbar__links a.active {
+  color: var(--color-primary);
+}
+
+.navbar__links a:hover {
+  color: var(--color-primary);
+}

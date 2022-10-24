@@ -1,0 +1,144 @@
+#slider {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+.slide {
+  position: relative;
+  height: calc(90vh);
+  overflow: hidden; /* tirou a barra de rolagem que estava aparecendo dentro do slide*/
+}
+
+.slide__background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide__copy {
+  /* border: 2px solid green; */
+  position: absolute;
+  top: 12rem;
+  left: 50vw;
+}
+
+.slide__copy h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.slide__copy h2 {
+  font-size: 10rem;
+  text-transform: uppercase;
+  line-height: 10rem;
+  margin-top: 4rem; /* coloquei a margin para diminuir o espaço entre o creative minds */
+  margin-bottom: 4rem;
+}
+
+.slide__copy h2 span {
+  display: block;
+}
+
+#counter {
+  background-color: var(--color-primary);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
+
+.counter__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  place-items: center;
+  padding: 4rem 1rem; /*alterei padding de 7.0rem p/ 4.0rem o qual ficou mais próximo do photope */
+}
+
+.counter__container h3 {
+  font-size: 3rem;
+}
+
+.counter__container h3 small {
+  display: block;
+  font-size: 2;
+}
+
+.institutional {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5rem;
+  align-items: center;
+  padding: 6rem; /* alterado de 7.0rem p/ 6.0rem */
+}
+
+.institutional__image {
+  max-width: 620px;
+}
+
+.institutional__copy {
+  padding: 0 3rem;
+}
+
+.institutional__copy h6 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.institutional__copy h4 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.institutional p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  margin-bottom: 0;
+  margin-bottom: 4rem;
+}
+
+.quote {
+  background-image: url(../images/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 100vh; /* alterei de 80vh para 100vh o qual ficou mais apresentável no espaçamento da caixa sob o parallax */
+}
+
+.quote__copy {
+  background-color: hsl(0, 0%, 100%);
+  padding: 9rem 7rem;
+}
+
+.quote__copy h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  line-height: 2.3rem;
+  max-width: 53ch;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.quote__copy h2 {
+  font-size: 8rem;
+  line-height: 8rem;
+  text-transform: uppercase;
+  letter-spacing: -0.3rem;
+  margin: 3rem 0;
+}
+
+.quote__copy h2 span {
+  display: block;
+}
