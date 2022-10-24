@@ -1,0 +1,6 @@
+:root {
+  --color-copy: hsl(0, 0%, 20%);
+  --color-copy--alt: #ccc;
+  --color-primary: hsl(46, 100%, 50%);
+  --default-padding: 1rem;
+}
