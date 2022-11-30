@@ -1,0 +1,120 @@
+.enterprise {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+.enterprise h3 {
+  margin: 20rem;
+  margin-bottom: 4rem;
+  margin-block-end: revert;
+  margin-block-start: 10rem;
+  font-size: 2.5rem;
+}
+
+.enterprise h5 {
+  margin: 10rem;
+  margin-top: 0.8rem;
+  margin-bottom: 4rem;
+  font-size: 1.2rem;
+}
+
+.enterprise p {
+  margin: 10rem;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+.enterprise__info ul {
+  text-align: center;
+}
+
+.counter__container h3 small {
+  text-align: center;
+  font-size: 2;
+}
+
+#counter {
+  background-color: var(--color-primary);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
+
+/* .contact__info h3:nth-of-type(2) {
+  margin-top: 6rem;
+}
+
+.contact__info,
+.contact__form {
+  padding: 6.4rem 0;
+}
+
+.contact__info__container {
+  float: right;
+  padding-right: 11.4rem;
+}
+
+.contact__info i {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.contact__info span {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.7rem; /* coloquei o font-size para deixar a fonte do telefone e endereço maior
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 2.7rem;
+}
+
+.contact__info__container,
+.contact__form__container {
+  width: 54rem;
+}*/
+
+.enterprise__form__container {
+  padding-left: 11.4rem;
+}
+
+.enterprise__form {
+  place-items: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.counter__container {
+  display: grid;
+
+  place-items: center;
+  padding: 7rem 1rem; /*alterei padding de 7.0rem p/ 4.0rem o qual ficou mais próximo do photope */
+}
+
+/*.contact__form label,
+.contact__form input {
+  display: block;
+}
+
+.contact__form label {
+  font-weight: 700;
+}
+
+.contact__form input {
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 0.5rem 0;
+  background: unset;
+  border: unset;
+  border-bottom: 0.06rem solid #fff;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.contact__form input:focus {
+  outline: unset;
+}
+
+.contact__form button {
+  float: right;
+} */

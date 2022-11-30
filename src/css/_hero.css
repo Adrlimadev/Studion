@@ -1,6 +1,7 @@
 .hero {
   position: relative;
   height: 55.4rem;
+  overflow: hidden; /* para tirar a barra de rolagem duplicada */
 }
 
 .hero__background {

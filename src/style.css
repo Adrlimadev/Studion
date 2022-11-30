@@ -12,4 +12,7 @@
 @import "./css/_footer.css";
 
 @import "./css/_home.css"; /*paginas*/
+@import "./css/_enterprise.css";
+@import "./css/_events.css";
+@import "./css/_gallery.css";
 @import "./css/_contacts.css";
