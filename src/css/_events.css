@@ -1,0 +1,115 @@
+.events {
+  display: grid;
+}
+
+.events h3 {
+  margin: 0;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 78%;
+  left: 15%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* .events__info h3:nth-of-type(2) {
+  margin-top: 6rem;
+} */
+
+/* .events__info,
+.events__form {
+  padding: 6.4rem 0;
+} */
+/* 
+.events__info__container {
+  padding-right: 11.4rem;
+} */
+
+.events__info i {
+  font-size: 3rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  align-items: center;
+  color: var(--color-primary);
+}
+
+.events__info span {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  gap: 2rem;
+  color: #000000;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  align-items: unset;
+  font-size: 1.7rem; /* coloquei o font-size para deixar a fonte do telefone e endereço maior*/
+  letter-spacing: 0.3rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.events__info p {
+  /*lorem ipsum*/
+  display: grid;
+  position: absolute;
+  top: 90%;
+  left: 15%;
+}
+
+.events__info__container,
+.events__form__container {
+  width: 54rem;
+}
+
+.events__info__container {
+  width: 50.6rem;
+  /* height: 44.4rem;  tamanho do container dos eventos e shows */
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #333333;
+  font-weight: 5em;
+  font-family: "Roboto";
+}
+
+.events__form {
+  background-color: #000;
+  color: #fff;
+}
+
+.events__form label,
+.events__form input {
+  display: block;
+}
+
+.events__form label {
+  font-weight: 700;
+}
+
+.events__form input {
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 0.5rem 0;
+  background: unset;
+  /* border: unset; */
+  border-bottom: 0.06rem solid #fff;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.events__form input:focus {
+  outline: unset;
+}
+
+.events__form button {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+}
+
+.events__form hr {
+  border-color: hsla(0, 0%, 100%, 0.267);
+  margin: 0;
+}
